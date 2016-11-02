@@ -38,7 +38,8 @@ config = {
 
   // Production (Heroku)
   production: {
-    url: process.env.HEROKU_URL,
+    // url: process.env.HEROKU_URL,
+    url: http://blog.schnorbus.net,
     mail: {
       transport: 'SMTP',
       options: {
