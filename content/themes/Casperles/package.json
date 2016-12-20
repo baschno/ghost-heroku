@@ -1,4 +1,36 @@
 {
-  "name": "Casperles",
-  "version": "1.2.8"
+    "name": "Casperles",
+    "description": "A variant of casper from Ghost.",
+    "demo": "https://demo.ghost.io",
+    "version": "1.3.4",
+    "engines": {
+        "ghost": ">=0.9.0 <1.0.0"
+    },
+    "license": "MIT",
+    "screenshots": {
+        "desktop": "assets/screenshot-desktop.jpg",
+        "mobile": "assets/screenshot-mobile.jpg"
+    },
+    "author": {
+        "name": "Ghost Foundation",
+        "email": "hello@ghost.org",
+        "url": "https://ghost.org"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Personal Blogs"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/baschno/Casperles.git"
+    },
+    "bugs": "https://github.com/baschno/Casperles/issues",
+    "contributors": "https://github.com/baschno/Casperles/graphs/contributors"
 }

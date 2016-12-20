@@ -74,7 +74,7 @@ config = {
       connection: {
         filename: path.join(__dirname, '/content/data/ghost-dev.db')
       },
-      debug: false
+      debug: true
     },
     server: {
       host: '127.0.0.1',
