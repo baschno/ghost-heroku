@@ -743,6 +743,7 @@ body.nav-opened .nav {
 }
 .nav .nav-current:before {
     color: #fff;
+    font-weight: bold;
 }
 .nav .nav-current a:after {
     content: " ";
@@ -1215,13 +1216,13 @@ body.page-template .post-title {
 }
 
 .post-footer h4 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin: 0;
 }
 
 .post-footer p {
     margin: 1rem 0;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.75em;
 }
 
@@ -1797,11 +1798,11 @@ body.page-template .post-title {
     }
 
     body:not(.post-template) .post-title {
-        font-size: 3.2rem;
+        font-size: 2.8rem;
     }
 
-    body.page-template .post-ti4tle {
-        font-size: 4.5rem;
+    body.page-template .post-title {
+        font-size: 3.8rem;
     }
 
     hr {
@@ -1813,16 +1814,16 @@ body.page-template .post-title {
     }
 
     h1 {
-        font-size: 4.5rem;
+        font-size: 3.6rem;
         text-indent: -2px;
     }
 
     h2 {
-        font-size: 3.6rem;
+        font-size: 3.0rem;
     }
 
     h3 {
-        font-size: 3.1rem;
+        font-size: 2.8rem;
     }
 
     h4 {
@@ -2257,6 +2258,52 @@ section[class*="post-meta"] a[href^="/tag"] {
     padding-right: 3px;
     margin-right: 2px;
 }
+
+#nav-header {
+   z-index: 100;
+   height: 40px;
+   background-color: black;
+   color: white;
+   text-align: right;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   /*Opacity start*/
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+   filter: alpha(opacity=70);
+   -moz-opacity: 0.70;
+   -khtml-opacity: 0.8;
+   opacity: 0.8;
+   /*Opacity end*/
+}
+#nav-header a:link,visited {
+    font-family: adelle-sans, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+#nav-header a:hover {
+    color: #3796FF;
+}
+
+.nav-current {
+    font-weight: bold;
+}
+
+#nav-header-content li {
+    display: inline;
+    z-index: 99;
+    color: white;
+    padding-right: 5px;
+}
+
+#nav-header-content {
+    margin-right: 20px;
+    line-height: 2.0;
+}
+
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
